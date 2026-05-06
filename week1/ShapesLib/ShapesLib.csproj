@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Shapes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Shapes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Graphics" Version="8.0.20" />
+    <PackageReference Include="Microsoft.Maui.Graphics.Skia" Version="8.0.20" />
+  </ItemGroup>
+</Project>
